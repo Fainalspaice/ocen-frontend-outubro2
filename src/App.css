@@ -15,15 +15,24 @@ Espçamentos internos
   border: 0.2rem solid pink; 
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 0.2rem 0.2rem pink;
   
+  transition: all 0.1s;
+
+}
+
+.Card:hover {
+  box-shadow: 0.2rem 0.2rem pink;
+  transition: -0.2rem -0.2rem;
 }
 
 .Card > h2{
-  font-size
+  font-size: 2rem;
 }
 
 .Card > img {
-  border-randius: 1rem;
+  border-radius: 1rem;
 }
 
+
+  
+}
